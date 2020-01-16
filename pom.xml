@@ -132,20 +132,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<!-- 配置release插件发布到我的Nexus仓库 -->
-	<distributionManagement>
-		<repository>
-			<id>nexus-releases</id>
-			<name>Nexus Releases Repository</name>
-			<!-- <url>http://192.168.1.14:8100/nexus/content/repositories/releases/</url> -->
-			<url>http://118.89.45.41:7081/nexus/content/repositories/releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>nexus-snapshots</id>
-			<name>Nexus Snapshots Repository</name>
-			<!-- <url>http://192.168.1.14:8100/nexus/content/repositories/snapshots/</url> -->
-			<url>http://118.89.45.41:7081/nexus/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
 
 </project>
